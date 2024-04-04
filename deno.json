@@ -1,0 +1,11 @@
+{
+    "imports": {
+      "gql": "https://deno.land/x/graphql_tag@0.0.1/mod.ts",
+      "tool": "https://deno.land/x/graphql_tools@0.0.2/mod.ts",
+      "server": "https://deno.land/std@0.166.0/http/server.ts",
+      "http": "https://deno.land/x/gql@1.1.2/mod.ts"
+    },
+    "tasks": {
+      "run": "deno run -A --unstable-kv --env=.env --watch server.js"
+    }
+  }
